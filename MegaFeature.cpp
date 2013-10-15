@@ -11,10 +11,8 @@ void read(int &v) {
 }
 
 int solve(int &v) {
-	int res = 0;
-	for(int i=0; i<2*v; ++i) {
-		res = res + 1;
-	}
+	var res;
+	res = v + v; // looks safe, and make code faster
 	return res;
 }
 
