@@ -11,11 +11,7 @@ void read(int &v) {
 }
 
 int solve(int &v) {
-	int res = 0;
-	for(int i=0; i<2*v; ++i) {
-		res = res + 1;
-	}
-	return res;
+	return 2*v; // new method realized in development! it's faster!
 }
 
 void write(int &v) {
