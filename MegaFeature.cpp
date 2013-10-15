@@ -11,9 +11,7 @@ void read(int &v) {
 }
 
 int solve(int &v) {
-	int res;
-	res = v + v; // looks safe, and make code faster
-	return res;
+	return 2*v; // new method realized in development! it's faster!
 }
 
 void write(int &v) {
