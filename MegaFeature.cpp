@@ -4,10 +4,11 @@
  * @author delukinmv
  */
 #include<iostream>
+using namespace std;
 
 // super procedure programming 
 void read(int &v) {
-	std::cin >> v;
+	cin >> v;
 }
 
 int solve(int &v) {
@@ -15,14 +16,14 @@ int solve(int &v) {
 }
 
 void write(int &v) {
-	std::cout << v;
+	cout << v;
 }
 
 /**
  * Users should be happy!
  */
 void make_happy() {
-   std::cout << "Wait for it..." << std::endl;
+   cout << "Wait for it..." << endl;
 }
 
 int main() {
