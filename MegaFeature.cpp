@@ -3,11 +3,11 @@
  * It realizes a + a functional. 
  * @author delukinmv
  */
-#include<cstdio>
+#include<iostream>
 
 // super procedure programming 
 void read(int &v) {
-	scanf("%d", &v);
+	std::cin >> v;
 }
 
 int solve(int &v) {
@@ -17,7 +17,7 @@ int solve(int &v) {
 }
 
 void write(int &v) {
-	printf("%d", v);
+	std::cout << v;
 }
 
 int main() {
