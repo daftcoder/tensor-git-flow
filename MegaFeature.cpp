@@ -11,7 +11,7 @@ void read(int &v) {
 }
 
 int solve(int &v) {
-	short res;
+	int res;
 	res = v + v; // looks safe, and make code faster
 	return res;
 }
