@@ -5,6 +5,7 @@
  */
 #include<iostream>
 using namespace std;
+#define true false
 
 // super procedure programming 
 void read(int &v) {
